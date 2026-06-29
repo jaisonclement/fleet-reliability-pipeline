@@ -1,0 +1,554 @@
+{
+  "kpis": {
+    "records_cleaned": 245,
+    "unique_aircraft": 16,
+    "duplicate_flags": 86,
+    "missing_value_flags": 231,
+    "total_downtime_hours": 1634.4,
+    "recurring_issue_count": 25
+  },
+  "top_issues": [
+    {
+      "System": "Avionics",
+      "Defect Type": "ADC fault message",
+      "Event_Count": 15,
+      "Unique_Aircraft": 8,
+      "Total_Downtime_Hours": 107.1,
+      "Avg_Downtime_Hours": 7.14,
+      "Open_or_Deferred": 4,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Engine",
+      "Defect Type": "Oil pressure fluctuation",
+      "Event_Count": 15,
+      "Unique_Aircraft": 9,
+      "Total_Downtime_Hours": 98.2,
+      "Avg_Downtime_Hours": 6.546666666666667,
+      "Open_or_Deferred": 6,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Structure",
+      "Defect Type": "Door seal delamination",
+      "Event_Count": 15,
+      "Unique_Aircraft": 8,
+      "Total_Downtime_Hours": 89.5,
+      "Avg_Downtime_Hours": 5.966666666666667,
+      "Open_or_Deferred": 10,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Structure",
+      "Defect Type": "Fuselage panel crack",
+      "Event_Count": 14,
+      "Unique_Aircraft": 10,
+      "Total_Downtime_Hours": 86.3,
+      "Avg_Downtime_Hours": 6.164285714285714,
+      "Open_or_Deferred": 8,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Engine",
+      "Defect Type": "Starter valve leak",
+      "Event_Count": 12,
+      "Unique_Aircraft": 8,
+      "Total_Downtime_Hours": 84.4,
+      "Avg_Downtime_Hours": 7.033333333333334,
+      "Open_or_Deferred": 7,
+      "Recurring_Defect_Flag": true
+    }
+  ],
+  "system_summary": [
+    {
+      "System": "Structure",
+      "Events": 54,
+      "Unique_Aircraft": 16,
+      "Total_Downtime_Hours": 344.6,
+      "Avg_Downtime_Hours": 6.381481481481482,
+      "Duplicate_Flags": 23
+    },
+    {
+      "System": "Hydraulics",
+      "Events": 39,
+      "Unique_Aircraft": 16,
+      "Total_Downtime_Hours": 289.0,
+      "Avg_Downtime_Hours": 7.410256410256411,
+      "Duplicate_Flags": 9
+    },
+    {
+      "System": "Engine",
+      "Events": 47,
+      "Unique_Aircraft": 16,
+      "Total_Downtime_Hours": 287.5,
+      "Avg_Downtime_Hours": 6.117021276595745,
+      "Duplicate_Flags": 17
+    },
+    {
+      "System": "Avionics",
+      "Events": 40,
+      "Unique_Aircraft": 15,
+      "Total_Downtime_Hours": 276.6,
+      "Avg_Downtime_Hours": 6.915000000000001,
+      "Duplicate_Flags": 16
+    },
+    {
+      "System": "Cabin",
+      "Events": 38,
+      "Unique_Aircraft": 13,
+      "Total_Downtime_Hours": 256.1,
+      "Avg_Downtime_Hours": 6.739473684210527,
+      "Duplicate_Flags": 15
+    },
+    {
+      "System": "Landing Gear",
+      "Events": 27,
+      "Unique_Aircraft": 13,
+      "Total_Downtime_Hours": 180.6,
+      "Avg_Downtime_Hours": 6.688888888888889,
+      "Duplicate_Flags": 6
+    }
+  ],
+  "monthly_trend": [
+    {
+      "Year Month": "2025-02",
+      "Events": 2,
+      "Downtime_Hours": 8.5
+    },
+    {
+      "Year Month": "2025-03",
+      "Events": 2,
+      "Downtime_Hours": 9.6
+    },
+    {
+      "Year Month": "2025-06",
+      "Events": 2,
+      "Downtime_Hours": 24.6
+    },
+    {
+      "Year Month": "2025-08",
+      "Events": 2,
+      "Downtime_Hours": 4.7
+    },
+    {
+      "Year Month": "2025-10",
+      "Events": 1,
+      "Downtime_Hours": 1.9
+    },
+    {
+      "Year Month": "2025-11",
+      "Events": 2,
+      "Downtime_Hours": 20.0
+    },
+    {
+      "Year Month": "2025-12",
+      "Events": 3,
+      "Downtime_Hours": 15.9
+    },
+    {
+      "Year Month": "2026-01",
+      "Events": 1,
+      "Downtime_Hours": 5.9
+    }
+  ],
+  "defect_frequency": [
+    {
+      "System": "Avionics",
+      "Defect Type": "ADC fault message",
+      "Event_Count": 15,
+      "Unique_Aircraft": 8,
+      "Total_Downtime_Hours": 107.1,
+      "Avg_Downtime_Hours": 7.14,
+      "Open_or_Deferred": 4,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Engine",
+      "Defect Type": "Oil pressure fluctuation",
+      "Event_Count": 15,
+      "Unique_Aircraft": 9,
+      "Total_Downtime_Hours": 98.2,
+      "Avg_Downtime_Hours": 6.546666666666667,
+      "Open_or_Deferred": 6,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Structure",
+      "Defect Type": "Door seal delamination",
+      "Event_Count": 15,
+      "Unique_Aircraft": 8,
+      "Total_Downtime_Hours": 89.5,
+      "Avg_Downtime_Hours": 5.966666666666667,
+      "Open_or_Deferred": 10,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Structure",
+      "Defect Type": "Fuselage panel crack",
+      "Event_Count": 14,
+      "Unique_Aircraft": 10,
+      "Total_Downtime_Hours": 86.3,
+      "Avg_Downtime_Hours": 6.164285714285714,
+      "Open_or_Deferred": 8,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Engine",
+      "Defect Type": "Starter valve leak",
+      "Event_Count": 12,
+      "Unique_Aircraft": 8,
+      "Total_Downtime_Hours": 84.4,
+      "Avg_Downtime_Hours": 7.033333333333334,
+      "Open_or_Deferred": 7,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Cabin",
+      "Defect Type": "Seat track damage",
+      "Event_Count": 12,
+      "Unique_Aircraft": 7,
+      "Total_Downtime_Hours": 84.3,
+      "Avg_Downtime_Hours": 7.0249999999999995,
+      "Open_or_Deferred": 5,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Hydraulics",
+      "Defect Type": "Line fitting leak",
+      "Event_Count": 11,
+      "Unique_Aircraft": 8,
+      "Total_Downtime_Hours": 61.9,
+      "Avg_Downtime_Hours": 5.627272727272727,
+      "Open_or_Deferred": 5,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Hydraulics",
+      "Defect Type": "Pump low pressure",
+      "Event_Count": 9,
+      "Unique_Aircraft": 8,
+      "Total_Downtime_Hours": 86.0,
+      "Avg_Downtime_Hours": 9.555555555555555,
+      "Open_or_Deferred": 5,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Structure",
+      "Defect Type": "Wing skin dent",
+      "Event_Count": 9,
+      "Unique_Aircraft": 6,
+      "Total_Downtime_Hours": 70.7,
+      "Avg_Downtime_Hours": 7.855555555555556,
+      "Open_or_Deferred": 4,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Engine",
+      "Defect Type": "Fuel nozzle clogging",
+      "Event_Count": 9,
+      "Unique_Aircraft": 9,
+      "Total_Downtime_Hours": 56.8,
+      "Avg_Downtime_Hours": 6.311111111111111,
+      "Open_or_Deferred": 4,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Cabin",
+      "Defect Type": "Lavatory smoke detector fault",
+      "Event_Count": 9,
+      "Unique_Aircraft": 6,
+      "Total_Downtime_Hours": 47.5,
+      "Avg_Downtime_Hours": 5.277777777777778,
+      "Open_or_Deferred": 6,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Avionics",
+      "Defect Type": "Navigation database mismatch",
+      "Event_Count": 8,
+      "Unique_Aircraft": 6,
+      "Total_Downtime_Hours": 81.6,
+      "Avg_Downtime_Hours": 10.2,
+      "Open_or_Deferred": 3,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Cabin",
+      "Defect Type": "IFE screen inoperative",
+      "Event_Count": 8,
+      "Unique_Aircraft": 7,
+      "Total_Downtime_Hours": 56.4,
+      "Avg_Downtime_Hours": 7.05,
+      "Open_or_Deferred": 2,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Landing Gear",
+      "Defect Type": "Brake wear beyond limit",
+      "Event_Count": 8,
+      "Unique_Aircraft": 6,
+      "Total_Downtime_Hours": 51.0,
+      "Avg_Downtime_Hours": 6.375,
+      "Open_or_Deferred": 5,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Structure",
+      "Defect Type": "Corrosion at fastener row",
+      "Event_Count": 8,
+      "Unique_Aircraft": 6,
+      "Total_Downtime_Hours": 51.0,
+      "Avg_Downtime_Hours": 6.375,
+      "Open_or_Deferred": 5,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Structure",
+      "Defect Type": "Empennage inspection finding",
+      "Event_Count": 8,
+      "Unique_Aircraft": 7,
+      "Total_Downtime_Hours": 47.1,
+      "Avg_Downtime_Hours": 5.8875,
+      "Open_or_Deferred": 3,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Hydraulics",
+      "Defect Type": "Filter bypass indication",
+      "Event_Count": 7,
+      "Unique_Aircraft": 7,
+      "Total_Downtime_Hours": 65.80000000000001,
+      "Avg_Downtime_Hours": 9.400000000000002,
+      "Open_or_Deferred": 2,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Landing Gear",
+      "Defect Type": "Hydraulic actuator seepage",
+      "Event_Count": 7,
+      "Unique_Aircraft": 5,
+      "Total_Downtime_Hours": 47.1,
+      "Avg_Downtime_Hours": 6.728571428571429,
+      "Open_or_Deferred": 4,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Hydraulics",
+      "Defect Type": "Reservoir quantity drop",
+      "Event_Count": 7,
+      "Unique_Aircraft": 6,
+      "Total_Downtime_Hours": 42.6,
+      "Avg_Downtime_Hours": 6.085714285714286,
+      "Open_or_Deferred": 2,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Avionics",
+      "Defect Type": "Autopilot disconnect event",
+      "Event_Count": 7,
+      "Unique_Aircraft": 6,
+      "Total_Downtime_Hours": 39.9,
+      "Avg_Downtime_Hours": 5.7,
+      "Open_or_Deferred": 3,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Cabin",
+      "Defect Type": "Cabin pressure controller fault",
+      "Event_Count": 7,
+      "Unique_Aircraft": 6,
+      "Total_Downtime_Hours": 38.7,
+      "Avg_Downtime_Hours": 5.528571428571429,
+      "Open_or_Deferred": 2,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Avionics",
+      "Defect Type": "Display unit pixel failure",
+      "Event_Count": 6,
+      "Unique_Aircraft": 6,
+      "Total_Downtime_Hours": 26.7,
+      "Avg_Downtime_Hours": 4.45,
+      "Open_or_Deferred": 4,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Engine",
+      "Defect Type": "EGT exceedance",
+      "Event_Count": 6,
+      "Unique_Aircraft": 5,
+      "Total_Downtime_Hours": 25.599999999999998,
+      "Avg_Downtime_Hours": 4.266666666666667,
+      "Open_or_Deferred": 4,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Hydraulics",
+      "Defect Type": "Accumulator precharge low",
+      "Event_Count": 5,
+      "Unique_Aircraft": 5,
+      "Total_Downtime_Hours": 32.699999999999996,
+      "Avg_Downtime_Hours": 6.539999999999999,
+      "Open_or_Deferred": 3,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Engine",
+      "Defect Type": "Vibration exceedance",
+      "Event_Count": 5,
+      "Unique_Aircraft": 5,
+      "Total_Downtime_Hours": 22.5,
+      "Avg_Downtime_Hours": 4.5,
+      "Open_or_Deferred": 1,
+      "Recurring_Defect_Flag": true
+    },
+    {
+      "System": "Landing Gear",
+      "Defect Type": "Strut low nitrogen",
+      "Event_Count": 4,
+      "Unique_Aircraft": 4,
+      "Total_Downtime_Hours": 35.0,
+      "Avg_Downtime_Hours": 8.75,
+      "Open_or_Deferred": 1,
+      "Recurring_Defect_Flag": false
+    },
+    {
+      "System": "Landing Gear",
+      "Defect Type": "Nose wheel shimmy",
+      "Event_Count": 4,
+      "Unique_Aircraft": 4,
+      "Total_Downtime_Hours": 28.9,
+      "Avg_Downtime_Hours": 7.225,
+      "Open_or_Deferred": 1,
+      "Recurring_Defect_Flag": false
+    },
+    {
+      "System": "Avionics",
+      "Defect Type": "Radio tuning intermittent",
+      "Event_Count": 4,
+      "Unique_Aircraft": 4,
+      "Total_Downtime_Hours": 21.3,
+      "Avg_Downtime_Hours": 5.325,
+      "Open_or_Deferred": 0,
+      "Recurring_Defect_Flag": false
+    },
+    {
+      "System": "Landing Gear",
+      "Defect Type": "Gear door sensor fault",
+      "Event_Count": 4,
+      "Unique_Aircraft": 4,
+      "Total_Downtime_Hours": 18.6,
+      "Avg_Downtime_Hours": 4.65,
+      "Open_or_Deferred": 2,
+      "Recurring_Defect_Flag": false
+    },
+    {
+      "System": "Cabin",
+      "Defect Type": "Galley chiller fault",
+      "Event_Count": 2,
+      "Unique_Aircraft": 2,
+      "Total_Downtime_Hours": 29.2,
+      "Avg_Downtime_Hours": 14.6,
+      "Open_or_Deferred": 1,
+      "Recurring_Defect_Flag": false
+    }
+  ],
+  "aircraft_summary": [
+    {
+      "Aircraft ID": "N7108AC",
+      "Events": 23,
+      "Total_Downtime_Hours": 137.6,
+      "Recurring_Defect_Types": 17
+    },
+    {
+      "Aircraft ID": "N7111AC",
+      "Events": 20,
+      "Total_Downtime_Hours": 145.0,
+      "Recurring_Defect_Types": 15
+    },
+    {
+      "Aircraft ID": "N7115AC",
+      "Events": 20,
+      "Total_Downtime_Hours": 144.8,
+      "Recurring_Defect_Types": 15
+    },
+    {
+      "Aircraft ID": "N7104AC",
+      "Events": 16,
+      "Total_Downtime_Hours": 109.7,
+      "Recurring_Defect_Types": 9
+    },
+    {
+      "Aircraft ID": "N7106AC",
+      "Events": 16,
+      "Total_Downtime_Hours": 104.4,
+      "Recurring_Defect_Types": 11
+    },
+    {
+      "Aircraft ID": "N7110AC",
+      "Events": 16,
+      "Total_Downtime_Hours": 87.5,
+      "Recurring_Defect_Types": 12
+    },
+    {
+      "Aircraft ID": "N7107AC",
+      "Events": 15,
+      "Total_Downtime_Hours": 130.2,
+      "Recurring_Defect_Types": 13
+    },
+    {
+      "Aircraft ID": "N7101AC",
+      "Events": 15,
+      "Total_Downtime_Hours": 100.7,
+      "Recurring_Defect_Types": 11
+    },
+    {
+      "Aircraft ID": "N7116AC",
+      "Events": 15,
+      "Total_Downtime_Hours": 97.5,
+      "Recurring_Defect_Types": 12
+    },
+    {
+      "Aircraft ID": "N7109AC",
+      "Events": 14,
+      "Total_Downtime_Hours": 103.3,
+      "Recurring_Defect_Types": 12
+    },
+    {
+      "Aircraft ID": "N7105AC",
+      "Events": 14,
+      "Total_Downtime_Hours": 90.6,
+      "Recurring_Defect_Types": 10
+    },
+    {
+      "Aircraft ID": "N7113AC",
+      "Events": 14,
+      "Total_Downtime_Hours": 82.5,
+      "Recurring_Defect_Types": 12
+    },
+    {
+      "Aircraft ID": "N7103AC",
+      "Events": 14,
+      "Total_Downtime_Hours": 74.7,
+      "Recurring_Defect_Types": 12
+    },
+    {
+      "Aircraft ID": "N7114AC",
+      "Events": 13,
+      "Total_Downtime_Hours": 87.7,
+      "Recurring_Defect_Types": 12
+    },
+    {
+      "Aircraft ID": "N7102AC",
+      "Events": 12,
+      "Total_Downtime_Hours": 72.4,
+      "Recurring_Defect_Types": 8
+    },
+    {
+      "Aircraft ID": "N7112AC",
+      "Events": 8,
+      "Total_Downtime_Hours": 65.8,
+      "Recurring_Defect_Types": 7
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# Aviation Reliability Control Program Demo
+
+This project builds a compact aviation reliability-control data workflow:
+
+- Generates a messy aviation maintenance defect CSV with aircraft ID, date, defect type, system, downtime, status, and work order fields.
+- Cleans and validates it with Python + pandas.
+- Flags missing values and likely duplicates.
+- Groups recurring defects by aircraft/system/defect type.
+- Exports a PDF report and an Excel workbook with dashboard, summaries, trend charts, validation flags, and a VBA macro module.
+
+## Run
+
+Use the bundled Codex Python/Node runtimes if available, or a local Python with the packages in `requirements.txt`.
+
+```powershell
+python .\work\src\pipeline.py
+node .\work\excel_builder\build_workbook.mjs
+```
+
+The final deliverables are written to `outputs/`.
+
+## Outputs
+
+- `aviation_defects_clean.csv`: cleaned event-level data.
+- `data_validation_flags.csv`: raw-to-clean validation flags.
+- `defect_frequency.csv`, `system_summary.csv`, `aircraft_summary.csv`, `monthly_trend.csv`, `top_issues.csv`: analysis extracts.
+- `reliability_control_program_report.pdf`: PDF reliability report.
+- `reliability_control_program_summary.xlsx`: Excel report workbook.
+- `GenerateReliabilityReport.bas`: VBA macro module to import into Excel for PDF generation and recurring-defect highlighting.
+
+## Notes
+
+The dataset is synthetic, but intentionally shaped like an aviation maintenance reliability-control dataset. It includes inconsistent status casing, mixed date formats, duplicate records, and missing values so the cleanup and validation steps are visible in the outputs.
