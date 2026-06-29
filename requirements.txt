@@ -10,7 +10,7 @@ This project builds a compact aviation reliability-control data workflow:
 
 ## Run
 
-Use the bundled Codex Python/Node runtimes if available, or a local Python with the packages in `requirements.txt`.
+Use the bundled Python/Node runtimes if available, or a local Python with the packages in `requirements.txt`.
 
 ```powershell
 python .\work\src\pipeline.py
